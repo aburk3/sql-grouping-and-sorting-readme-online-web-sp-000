@@ -245,7 +245,7 @@ The difference between the `HAVING` and `WHERE` clause in SQL is that the `WHERE
 
 - HAVING supports aggregate functions as it has to work with groups of rows. so for example, if there are multiple integers in a group it can filter out the groups with a low average, a high total (sum) or count how many rows are in the group.
 
-- WHERE on the other hand deals with each row individually, so aggregate functions wouldn't work for what would you be aggregating.
+- WHERE on the other hand deals with each row individually, so aggregate functions wouldn't work for what you would be aggregating.
 
 
 Also note syntax differences:
